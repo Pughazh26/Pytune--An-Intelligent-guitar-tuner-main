@@ -1,0 +1,85 @@
+PyTune – Intelligent Guitar Tuning System
+Overview
+
+PyTune is an intelligent guitar tuning system that leverages audio signal processing and machine learning to accurately detect whether a guitar string is in tune or out of tune.
+
+It captures real-time audio input, extracts frequency-based features, and provides instant feedback to assist musicians in tuning their instruments efficiently.
+
+Features
+🎧 Real-time audio capture
+🎼 Pitch detection using signal processing
+🤖 Machine learning-based classification
+📊 Visual feedback and analysis
+⚡ Fast and reliable tuning detection
+
+Project Structure
+PyTune/
+│── data/                  # Audio dataset
+│── models/                # Saved ML models
+│── src/
+│   ├── audio_input.py     # Audio recording
+│   ├── feature_extract.py # Feature extraction
+│   ├── model.py           # Training logic
+│   ├── predict.py         # Prediction module
+│── app.py                 # Main application
+│── requirements.txt       # Dependencies
+│── README.md              # Documentation
+
+Installation
+# Clone the repository
+git clone https://github.com/your-username/pytune.git
+
+# Navigate to project
+cd pytune
+
+# Create virtual environment
+python -m venv venv
+
+# Activate environment (Windows)
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+Run the Application
+python app.py
+Steps
+Connect a microphone
+Play a guitar string
+View tuning status in console/output
+
+
+Example Output:
+Detected Frequency: 440 Hz
+Status: In Tune ✅
+
+Demo
+How It Works
+🎤 Capture audio input
+🔍 Extract frequency features
+🤖 Classify using ML model
+📢 Display tuning result
+📈 Performance
+Accuracy: 85–90%
+Works well in moderate noise
+Real-time response
+⚠️ Limitations
+Sensitive to noisy environments
+Requires proper microphone quality
+Limited dataset affects generalization
+🔮 Future Improvements
+GUI-based application
+Mobile app integration
+Multi-instrument support
+Deep learning enhancements
+👨‍💻 Authors
+Chinnam Abhinav
+A. Pugazh
+Dr. P. Dhivya (Project Coordinator)
+Dr. G. Senthil Velan (Supervisor)
+
+Department of Computer Science and Engineering
+Dr. MGR Educational and Research Institute, Chennai
+
+License:
+This project is intended for academic and research purposes only.

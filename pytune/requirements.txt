@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+numpy
+scipy
+pandas
+scikit-learn
+librosa
+soundfile
+pretty_midi
+matplotlib
+joblib
+python-multipart
+midiutil
